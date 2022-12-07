@@ -1,26 +1,31 @@
 Olá pessoal,
 
-Java Virtual Machine (JVM) - Executa o bytecode.
-Java Runtime Environment (JRE) - Tem as bibliotecas do java que permitem compilar o código para bytecode.
-Java development Kit (JDK) - Compilar + JRE + JVM
 
-JAVAC - Java compiler, responsável por compilar o arquivo .java para o .class
-JAVA - Executa o arquivo .class .jar .war
+Java Virtual Machine (JVM) - Executa o bytecode. <br>
+Java Runtime Environment (JRE) - Tem as bibliotecas do java que permitem compilar o código para bytecode.<br>
+Java development Kit (JDK) - Compilador + JRE + JVM <br><br>
 
-Linha de comando para exemplo:
+JAVAC - Java compiler, responsável por compilar o arquivo .java para o .class <br>
+JAVA - Executa o arquivo .class .jar .war <br><br>
 
-Compilar o arquivo para bytecode: 
-javac C:\Public\java\Aula.java
+Onde baixar a JDK (Java development Kit)<br>
+https://www.oracle.com/java/technologies/downloads/
 
-Executar o .class na JVM
-java -cp C:\Public\java Aula 
+Linha de comando para exemplo:<br><br>
 
-Executar o .class na JVM passando parametros para a aplicação.
-java -cp C:\Public\java Aula param1 param2
+Compilar o arquivo para bytecode: <br>
+javac C:\Public\java\Aula.java<br><br>
+
+Executar o .class na JVM<br>
+java -cp C:\Public\java Aula <br><br>
+
+Executar o .class na JVM passando parametros para a aplicação.<br>
+java -cp C:\Public\java Aula param1 param2<br><br>
 
 
-Exemplo de classe:
+Exemplo de classe:<br>
 
+```
 public class Aula {
 
     public static void main(String[] args) {
@@ -28,3 +33,5 @@ public class Aula {
     }
 
 }
+```
+
